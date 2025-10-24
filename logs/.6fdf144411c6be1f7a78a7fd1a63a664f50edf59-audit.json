@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/philippebeliveau/Desktop/Notebook/Projet-échec/logs/.6fdf144411c6be1f7a78a7fd1a63a664f50edf59-audit.json",
+    "files": [
+        {
+            "date": 1761313323773,
+            "name": "/Users/philippebeliveau/Desktop/Notebook/Projet-échec/logs/mcp-puppeteer-2025-10-24.log",
+            "hash": "2aaa44603bdc29bdb73405277b8d553d1d1a443071795d827e57aab57ec70e83"
+        }
+    ],
+    "hashType": "sha256"
+}

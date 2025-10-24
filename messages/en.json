@@ -6,7 +6,10 @@
     "testimonials": "Testimonials",
     "faq": "FAQ",
     "contact": "Contact",
-    "bookLesson": "Book a Lesson"
+    "bookLesson": "Book a Lesson",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "dashboard": "Dashboard"
   },
   "common": {
     "bookLesson": "Book a Lesson",

@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/philbeliveau/Chess#readme",
   "dependencies": {
+    "@clerk/nextjs": "^6.34.0",
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
     "@prisma/client": "^6.18.0",

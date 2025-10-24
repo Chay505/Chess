@@ -1,22 +1,37 @@
+import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server';
 import createMiddleware from 'next-intl/middleware';
 
-export default createMiddleware({
-  // A list of all locales that are supported
+// Create the next-intl middleware
+const intlMiddleware = createMiddleware({
   locales: ['en', 'fr'],
-
-  // Used when no locale matches
   defaultLocale: 'en',
-
-  // Enable automatic locale detection based on browser settings
   localeDetection: true,
-
-  // Always redirect to a locale prefix
   localePrefix: 'always'
 });
 
+// Define protected routes that require authentication
+const isProtectedRoute = createRouteMatcher([
+  '/dashboard(.*)',
+  '/admin(.*)',
+  '/:locale/dashboard(.*)',
+  '/:locale/admin(.*)',
+]);
+
+export default clerkMiddleware(async (auth, req) => {
+  // Protect dashboard and admin routes
+  if (isProtectedRoute(req)) {
+    await auth.protect();
+  }
+
+  // Apply internationalization middleware
+  return intlMiddleware(req);
+});
+
 export const config = {
-  // Match all pathnames except for
-  // - … if they start with `/api`, `/_next` or `/_vercel`
-  // - … the ones containing a dot (e.g. `favicon.ico`)
-  matcher: '/((?!api|_next|_vercel|.*\\..*).*)'
+  matcher: [
+    // Skip Next.js internals and all static files, unless found in search params
+    '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+    // Always run for API routes
+    '/(api|trpc)(.*)',
+  ],
 };

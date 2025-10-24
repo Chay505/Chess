@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { SignedIn, SignedOut, UserButton } from '@clerk/nextjs';
 
 export default function Navigation() {
   const t = useTranslations('navigation');
@@ -39,12 +40,32 @@ export default function Navigation() {
               </a>
             ))}
             <LanguageSwitcher />
-            <a
-              href="#booking"
-              className="bg-teal-600 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-teal-700 transition-colors min-h-[44px] inline-flex items-center"
-            >
-              {t('bookLesson')}
-            </a>
+
+            {/* Clerk Authentication Buttons */}
+            <SignedOut>
+              <Link
+                href="/sign-in"
+                className="text-gray-700 hover:text-teal-600 transition-colors text-base font-medium"
+              >
+                {t('signIn')}
+              </Link>
+              <Link
+                href="/sign-up"
+                className="bg-teal-600 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-teal-700 transition-colors min-h-[44px] inline-flex items-center"
+              >
+                {t('signUp')}
+              </Link>
+            </SignedOut>
+
+            <SignedIn>
+              <Link
+                href="/dashboard"
+                className="text-gray-700 hover:text-teal-600 transition-colors text-base font-medium"
+              >
+                {t('dashboard')}
+              </Link>
+              <UserButton afterSignOutUrl="/" />
+            </SignedIn>
           </div>
 
           {/* Mobile Hamburger + Language Switcher */}
@@ -78,13 +99,37 @@ export default function Navigation() {
                   {link.label}
                 </a>
               ))}
-              <a
-                href="#booking"
-                className="w-full mt-2 bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors text-center min-h-[48px] flex items-center justify-center"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                {t('bookLesson')}
-              </a>
+
+              {/* Mobile Auth Buttons */}
+              <SignedOut>
+                <Link
+                  href="/sign-in"
+                  className="py-3 px-4 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {t('signIn')}
+                </Link>
+                <Link
+                  href="/sign-up"
+                  className="w-full mt-2 bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors text-center min-h-[48px] flex items-center justify-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {t('signUp')}
+                </Link>
+              </SignedOut>
+
+              <SignedIn>
+                <Link
+                  href="/dashboard"
+                  className="py-3 px-4 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {t('dashboard')}
+                </Link>
+                <div className="py-3 px-4 flex items-center">
+                  <UserButton afterSignOutUrl="/" />
+                </div>
+              </SignedIn>
             </div>
           </div>
         )}

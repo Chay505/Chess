@@ -6,7 +6,10 @@
     "testimonials": "Témoignages",
     "faq": "FAQ",
     "contact": "Contact",
-    "bookLesson": "Réserver une leçon"
+    "bookLesson": "Réserver une leçon",
+    "signIn": "Connexion",
+    "signUp": "S'inscrire",
+    "dashboard": "Tableau de bord"
   },
   "common": {
     "bookLesson": "Réserver une leçon",

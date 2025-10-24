@@ -1,0 +1,75 @@
+# Quality Gate Decision - Story 3.1: Clerk Authentication Setup
+schema: 1
+story: "3.1"
+story_title: "Clerk Authentication Setup"
+gate: CONCERNS
+status_reason: "Production-ready implementation with excellent code quality, but missing E2E tests for critical authentication flows. Minor route naming discrepancy (/sign-in vs /login) acceptable as it follows Clerk framework convention."
+reviewer: "Quinn (Test Architect)"
+updated: "2025-10-24T15:47:00Z"
+
+waiver:
+  active: false
+
+top_issues:
+  - id: "TEST-001"
+    severity: medium
+    finding: "Missing E2E Playwright tests for authentication flows (sign-up, login, protected route redirect, logout)"
+    suggested_action: "Schedule Story 3.1.1 for E2E test implementation in next sprint"
+    suggested_owner: "dev"
+  - id: "AC-001"
+    severity: low
+    finding: "Route naming discrepancy: AC5 specifies /login but implementation uses /sign-in (Clerk standard)"
+    suggested_action: "Product Owner to review and formally accept Clerk routing convention"
+    suggested_owner: "po"
+  - id: "SEC-001"
+    severity: medium
+    finding: "No rate limiting on authentication endpoints"
+    suggested_action: "Add rate limiting middleware before production deployment (post-MVP enhancement)"
+    suggested_owner: "dev"
+
+quality_score: 80
+expires: "2025-11-07T00:00:00Z"
+
+evidence:
+  tests_reviewed: 18
+  risks_identified: 3
+  trace:
+    ac_covered: [1, 2, 3, 4, 6, 7, 8]
+    ac_gaps: [5]  # Route naming discrepancy only
+
+nfr_validation:
+  security:
+    status: CONCERNS
+    notes: "Clerk provides industry-standard auth security. Missing rate limiting and session timeout documentation. CSRF protection handled by Clerk (needs verification)."
+  performance:
+    status: PASS
+    notes: "Minimal bundle impact, server-side auth check, lazy-loaded Clerk SDK. Production build optimized successfully."
+  reliability:
+    status: PASS
+    notes: "All 18 unit tests passing. Clerk SDK is production-proven. Build succeeds without errors."
+  maintainability:
+    status: PASS
+    notes: "Clean code structure, proper separation of concerns, adequate unit test coverage, clear documentation in story."
+
+recommendations:
+  immediate:
+    - action: "Product Owner review and accept /sign-in route naming (Clerk convention)"
+      refs: ["docs/stories/3.1.clerk-auth-setup.md:290"]
+    - action: "Update File List to include QA modification of app/layout.tsx"
+      refs: ["app/layout.tsx:10-12"]
+  future:
+    - action: "Create Story 3.1.1 for E2E Playwright tests (sign-up → verify → login → dashboard flows)"
+      refs: ["app/tests/auth/"]
+    - action: "Add rate limiting middleware for auth endpoints (production hardening)"
+      refs: ["proxy.ts:20-24"]
+    - action: "Extract Clerk appearance config to lib/clerk-config.ts (reduce duplication)"
+      refs: ["app/[locale]/sign-in/page.tsx:7-15", "app/[locale]/sign-up/page.tsx:7-15"]
+    - action: "Create lib/config.ts for centralized environment variable access"
+      refs: [".env.example:38-41"]
+    - action: "Document Clerk's CSRF protection strategy and session timeout configuration"
+      refs: ["docs/architecture/security-and-performance.md"]
+
+history:
+  - at: "2025-10-24T15:47:00Z"
+    gate: CONCERNS
+    note: "Initial QA review complete. Fixed critical root layout issue. Unit tests comprehensive but E2E tests missing. Security concerns non-blocking for MVP."

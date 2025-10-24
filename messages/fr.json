@@ -14,5 +14,15 @@
   "home": {
     "title": "Bienvenue à Projet Échec",
     "subtitle": "Plateforme d'apprentissage d'échecs - Bientôt disponible"
+  },
+  "homepage": {
+    "welcome": "Bienvenue au Coaching d'Échecs",
+    "subtitle": "Apprenez les échecs avec un instructeur professionnel. Leçons personnalisées pour débutants de tous âges.",
+    "aboutTitle": "À propos",
+    "aboutPlaceholder": "Contenu à venir...",
+    "servicesTitle": "Services",
+    "servicesPlaceholder": "Contenu à venir...",
+    "contactTitle": "Contact",
+    "contactPlaceholder": "Contenu à venir..."
   }
 }

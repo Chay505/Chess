@@ -14,5 +14,15 @@
   "home": {
     "title": "Welcome to Projet Échec",
     "subtitle": "Chess Learning Platform - Coming Soon"
+  },
+  "homepage": {
+    "welcome": "Welcome to Chess Coaching",
+    "subtitle": "Learn chess from a professional instructor. Personalized lessons for beginners of all ages.",
+    "aboutTitle": "About",
+    "aboutPlaceholder": "Content coming soon...",
+    "servicesTitle": "Services",
+    "servicesPlaceholder": "Content coming soon...",
+    "contactTitle": "Contact",
+    "contactPlaceholder": "Content coming soon..."
   }
 }

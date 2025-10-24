@@ -2,8 +2,11 @@
   "navigation": {
     "home": "Accueil",
     "about": "À propos",
-    "services": "Services",
-    "contact": "Contact"
+    "pricing": "Tarification",
+    "testimonials": "Témoignages",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookLesson": "Réserver une leçon"
   },
   "common": {
     "bookLesson": "Réserver une leçon",
@@ -24,5 +27,148 @@
     "servicesPlaceholder": "Contenu à venir...",
     "contactTitle": "Contact",
     "contactPlaceholder": "Contenu à venir..."
+  },
+  "hero": {
+    "headline": "Commencez à apprendre les échecs avec un instructeur professionnel",
+    "subheadline": "Cours personnalisés 1-on-1 pour débutants (âges 5-55, classement 0-1200)",
+    "cta": "Réserver une leçon",
+    "imageAlt": "Instructeur d'échecs professionnel"
+  },
+  "about": {
+    "heading": "Philosophie d'enseignement",
+    "paragraph1": "Je crois que les échecs devraient être accessibles à tous, quel que soit l'âge ou l'expérience. Mon approche pédagogique se concentre sur la construction de bases solides tout en rendant l'apprentissage agréable et sans stress.",
+    "paragraph2": "Avec plus de 5 ans d'expérience dans l'enseignement aux débutants, j'ai développé un programme structuré qui répond à chaque élève là où il en est. Que vous ayez 5 ou 55 ans, un classement de 0 ou 1200, j'adapte les leçons à votre rythme et à vos objectifs.",
+    "paragraph3": "Mes élèves apprécient mon style patient et encourageant. Nous célébrons les progrès, analysons les erreurs comme des opportunités d'apprentissage et construisons la confiance un coup à la fois.",
+    "credentials": {
+      "rating": {
+        "title": "Classement aux échecs",
+        "value": "FIDE 1800"
+      },
+      "experience": {
+        "title": "Expérience d'enseignement",
+        "value": "Plus de 5 ans"
+      },
+      "students": {
+        "title": "Élèves enseignés",
+        "value": "Plus de 100"
+      }
+    }
+  },
+  "pricing": {
+    "heading": "Tarification simple et transparente",
+    "price": "40$",
+    "perLesson": "par leçon de 60 minutes",
+    "whatsIncluded": "Ce qui est inclus",
+    "included": {
+      "lesson": "60 minutes d'instruction personnalisée 1-on-1",
+      "instruction": "Coaching bilingue (anglais ou français)",
+      "feedback": "Analyse et rétroaction après la leçon",
+      "resources": "Accès à votre portail étudiant avec fichiers PGN et matériaux"
+    },
+    "audience": {
+      "heading": "Pour qui c'est",
+      "description": "Parfait pour les débutants complets aux joueurs intermédiaires précoces (âges 5-55, classement 0-1200). Que vous appreniez vos premiers coups ou que vous travailliez pour dépasser 1000, ces leçons sont conçues pour vous."
+    },
+    "howItWorks": {
+      "heading": "Comment ça marche",
+      "step1": "Réservez une heure en utilisant le calendrier ci-dessous",
+      "step2": "Recevez les instructions de paiement par courriel",
+      "step3": "Rejoignez votre leçon à l'heure prévue via Zoom ou Google Meet"
+    },
+    "policies": {
+      "heading": "Politiques et flexibilité",
+      "cancellation": "Annulez jusqu'à 24 heures avant votre leçon avec remboursement complet",
+      "rescheduling": "Reprogrammez à tout moment jusqu'à 24 heures avant votre leçon",
+      "noHiddenFees": "Pas de frais cachés, pas de surprises—juste des tarifs transparents"
+    },
+    "cta": "Réserver maintenant",
+    "trustMessage": "Tarification transparente. Pas de contrat. Annulez ou reprogrammez à tout moment."
+  },
+  "testimonials": {
+    "heading": "Ce que disent les élèves",
+    "testimonial1": {
+      "quote": "Mon fils adore ses leçons d'échecs! L'instructeur est patient et rend l'apprentissage amusant. Nous avons vu une énorme amélioration en seulement 3 mois.",
+      "name": "Sarah M.",
+      "ageGroup": "Parent d'un enfant de 8 ans"
+    },
+    "testimonial2": {
+      "quote": "J'ai commencé sans aucune connaissance des échecs. Maintenant, je peux jouer avec confiance avec mes amis et comprendre la stratégie. Je recommande vivement!",
+      "name": "Alex T.",
+      "ageGroup": "Apprenant adulte, 32 ans"
+    },
+    "testimonial3": {
+      "quote": "Les commentaires après chaque leçon m'aident à comprendre mes erreurs. Je suis passé d'un classement de 600 à 1000 en 6 mois!",
+      "name": "Emma L.",
+      "ageGroup": "Adolescente, 15 ans"
+    },
+    "testimonial4": {
+      "quote": "En tant que parent, j'apprécie l'approche structurée et le suivi clair des progrès. Ma fille est plus confiante et enthousiaste à propos des échecs chaque semaine.",
+      "name": "Robert D.",
+      "ageGroup": "Parent d'un enfant de 10 ans"
+    }
+  },
+  "booking": {
+    "heading": "Réservez votre première leçon",
+    "instructions": "Sélectionnez un horaire pratique ci-dessous. Les instructions de paiement vous seront envoyées par courriel après la réservation.",
+    "note": "Vous rencontrez des difficultés? Contactez-nous directement pour obtenir de l'aide."
+  },
+  "faq": {
+    "heading": "Questions fréquemment posées",
+    "q1": {
+      "question": "Comment puis-je réserver une leçon?",
+      "answer": "Il suffit de faire défiler jusqu'à la section de réservation sur cette page, de sélectionner une heure qui vous convient dans le calendrier et de remplir le formulaire. Vous recevrez les instructions de paiement par courriel."
+    },
+    "q2": {
+      "question": "Ai-je besoin d'expérience préalable aux échecs?",
+      "answer": "Pas du tout! Je me spécialise dans l'enseignement aux débutants complets. Que vous ayez 5 ou 55 ans, je vous rencontrerai là où vous êtes et nous construirons à partir de là."
+    },
+    "q3": {
+      "question": "Comment payer pour les leçons?",
+      "answer": "Après la réservation, vous recevrez un lien de paiement sécurisé par courriel (alimenté par Stripe). Il suffit de cliquer sur le lien et de compléter le paiement en ligne."
+    },
+    "q4": {
+      "question": "Que se passe-t-il si je dois annuler ou reporter?",
+      "answer": "Vous pouvez annuler ou reporter jusqu'à 24 heures avant votre leçon sans pénalité. Utilisez simplement le lien dans votre courriel de confirmation de réservation."
+    },
+    "q5": {
+      "question": "Quelle plateforme utilisez-vous pour les leçons?",
+      "answer": "Les leçons se déroulent en ligne via Zoom ou Google Meet. Vous recevrez le lien de la réunion dans votre courriel de confirmation."
+    },
+    "q6": {
+      "question": "Ai-je besoin d'un échiquier ou d'un logiciel spécial?",
+      "answer": "Un échiquier physique est utile mais pas obligatoire. Nous utiliserons des outils d'échecs en ligne pendant les leçons. Je vous guiderai dans la configuration lors de notre premier appel."
+    },
+    "q7": {
+      "question": "Enseignez-vous en français et en anglais?",
+      "answer": "Oui! J'offre une instruction entièrement bilingue. Faites-moi savoir votre préférence lors de la réservation."
+    },
+    "q8": {
+      "question": "Quels groupes d'âge enseignez-vous?",
+      "answer": "J'enseigne aux élèves âgés de 5 à 55 ans, des débutants complets aux joueurs intermédiaires précoces (classement 0-1200)."
+    }
+  },
+  "contact": {
+    "heading": "Contactez-nous",
+    "name": "Nom",
+    "email": "Courriel",
+    "subject": "Sujet",
+    "message": "Message",
+    "submit": "Envoyer le message",
+    "sending": "Envoi en cours...",
+    "success": "Merci! Nous vous répondrons dans les 24 heures.",
+    "error": "Échec de l'envoi du message. Veuillez réessayer."
+  },
+  "footer": {
+    "tagline": "Coaching d'échecs pour débutants de tous âges",
+    "quickLinks": "Liens rapides",
+    "about": "À propos",
+    "pricing": "Tarification",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "followUs": "Suivez-nous",
+    "privacyPolicy": "Politique de confidentialité",
+    "copyright": "© {year} Chess Coaching. Tous droits réservés.",
+    "phone": "Téléphone",
+    "email": "Courriel"
   }
 }

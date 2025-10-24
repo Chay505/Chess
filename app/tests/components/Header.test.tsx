@@ -7,6 +7,15 @@ const messages = {
   common: {
     language: 'Language',
   },
+  navigation: {
+    home: 'Home',
+    about: 'About',
+    pricing: 'Pricing',
+    testimonials: 'Testimonials',
+    faq: 'FAQ',
+    contact: 'Contact',
+    bookLesson: 'Book a Lesson'
+  }
 };
 
 describe('Header', () => {

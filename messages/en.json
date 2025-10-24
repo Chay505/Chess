@@ -2,8 +2,11 @@
   "navigation": {
     "home": "Home",
     "about": "About",
-    "services": "Services",
-    "contact": "Contact"
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "bookLesson": "Book a Lesson"
   },
   "common": {
     "bookLesson": "Book a Lesson",
@@ -24,5 +27,148 @@
     "servicesPlaceholder": "Content coming soon...",
     "contactTitle": "Contact",
     "contactPlaceholder": "Content coming soon..."
+  },
+  "hero": {
+    "headline": "Start Learning Chess with a Professional Instructor",
+    "subheadline": "Personalized 1-on-1 lessons for beginners (ages 5-55, rating 0-1200)",
+    "cta": "Book a Lesson",
+    "imageAlt": "Professional chess instructor"
+  },
+  "about": {
+    "heading": "Teaching Philosophy",
+    "paragraph1": "I believe chess should be accessible to everyone, regardless of age or experience. My teaching approach focuses on building strong fundamentals while making learning enjoyable and stress-free.",
+    "paragraph2": "With over 5 years of experience teaching beginners, I've developed a structured curriculum that meets each student where they are. Whether you're 5 or 55, rated 0 or 1200, I tailor lessons to your pace and goals.",
+    "paragraph3": "My students appreciate my patient, encouraging style. We celebrate progress, analyze mistakes as learning opportunities, and build confidence one move at a time.",
+    "credentials": {
+      "rating": {
+        "title": "Chess Rating",
+        "value": "FIDE 1800"
+      },
+      "experience": {
+        "title": "Teaching Experience",
+        "value": "5+ Years"
+      },
+      "students": {
+        "title": "Students Taught",
+        "value": "100+"
+      }
+    }
+  },
+  "pricing": {
+    "heading": "Simple, Transparent Pricing",
+    "price": "$40",
+    "perLesson": "per 60-minute lesson",
+    "whatsIncluded": "What's Included",
+    "included": {
+      "lesson": "60 minutes of personalized 1-on-1 instruction",
+      "instruction": "Bilingual coaching (English or French)",
+      "feedback": "Post-lesson analysis and feedback",
+      "resources": "Access to your student portal with PGN files and materials"
+    },
+    "audience": {
+      "heading": "Who This Is For",
+      "description": "Perfect for complete beginners to early intermediate players (ages 5-55, rating 0-1200). Whether you're learning your first moves or working to break 1000, these lessons are designed for you."
+    },
+    "howItWorks": {
+      "heading": "How It Works",
+      "step1": "Book a time using the calendar below",
+      "step2": "Receive payment instructions via email",
+      "step3": "Join your lesson at the scheduled time via Zoom or Google Meet"
+    },
+    "policies": {
+      "heading": "Policies & Flexibility",
+      "cancellation": "Cancel up to 24 hours before your lesson with full refund",
+      "rescheduling": "Reschedule anytime up to 24 hours before your lesson",
+      "noHiddenFees": "No hidden fees, no surprises—just straightforward pricing"
+    },
+    "cta": "Book Now",
+    "trustMessage": "Transparent pricing. No contracts. Cancel or reschedule anytime."
+  },
+  "testimonials": {
+    "heading": "What Students Say",
+    "testimonial1": {
+      "quote": "My son loves his chess lessons! The instructor is patient and makes learning fun. We've seen huge improvement in just 3 months.",
+      "name": "Sarah M.",
+      "ageGroup": "Parent of 8-year-old"
+    },
+    "testimonial2": {
+      "quote": "I started with zero chess knowledge. Now I can confidently play with friends and understand strategy. Highly recommend!",
+      "name": "Alex T.",
+      "ageGroup": "Adult learner, 32"
+    },
+    "testimonial3": {
+      "quote": "The feedback after each lesson helps me understand my mistakes. I went from 600 to 1000 rating in 6 months!",
+      "name": "Emma L.",
+      "ageGroup": "Teen, 15"
+    },
+    "testimonial4": {
+      "quote": "As a parent, I appreciate the structured approach and clear progress tracking. My daughter is more confident and excited about chess every week.",
+      "name": "Robert D.",
+      "ageGroup": "Parent of 10-year-old"
+    }
+  },
+  "booking": {
+    "heading": "Book Your First Lesson",
+    "instructions": "Select a convenient time below. Payment instructions will be sent to your email after booking.",
+    "note": "Having trouble? Contact us directly for assistance."
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "q1": {
+      "question": "How do I book a lesson?",
+      "answer": "Simply scroll to the booking section on this page, select a convenient time from the calendar, and complete the form. You'll receive payment instructions via email."
+    },
+    "q2": {
+      "question": "Do I need any prior chess experience?",
+      "answer": "Not at all! I specialize in teaching complete beginners. Whether you're 5 or 55, I'll meet you where you are and build from there."
+    },
+    "q3": {
+      "question": "How do I pay for lessons?",
+      "answer": "After booking, you'll receive a secure payment link via email (powered by Stripe). Simply click the link and complete payment online."
+    },
+    "q4": {
+      "question": "What if I need to cancel or reschedule?",
+      "answer": "You can cancel or reschedule up to 24 hours before your lesson without penalty. Just use the link in your booking confirmation email."
+    },
+    "q5": {
+      "question": "What platform do you use for lessons?",
+      "answer": "Lessons are conducted online via Zoom or Google Meet. You'll receive the meeting link in your confirmation email."
+    },
+    "q6": {
+      "question": "Do I need a chessboard or special software?",
+      "answer": "A physical chessboard is helpful but not required. We'll use online chess tools during lessons. I'll guide you through setup on our first call."
+    },
+    "q7": {
+      "question": "Do you teach in French and English?",
+      "answer": "Yes! I offer fully bilingual instruction. Let me know your preference when booking."
+    },
+    "q8": {
+      "question": "What age groups do you teach?",
+      "answer": "I teach students ages 5-55, from complete beginners to early intermediate players (rating 0-1200)."
+    }
+  },
+  "contact": {
+    "heading": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "sending": "Sending...",
+    "success": "Thank you! We'll respond within 24 hours.",
+    "error": "Failed to send message. Please try again."
+  },
+  "footer": {
+    "tagline": "Chess coaching for beginners of all ages",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© {year} Chess Coaching. All rights reserved.",
+    "phone": "Phone",
+    "email": "Email"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "common": {
+    "bookLesson": "Book a Lesson",
+    "login": "Login",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "home": {
+    "title": "Welcome to Projet Échec",
+    "subtitle": "Chess Learning Platform - Coming Soon"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "navigation": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "common": {
+    "bookLesson": "Réserver une leçon",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "language": "Langue"
+  },
+  "home": {
+    "title": "Bienvenue à Projet Échec",
+    "subtitle": "Plateforme d'apprentissage d'échecs - Bientôt disponible"
+  }
+}

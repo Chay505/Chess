@@ -1,0 +1,53 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Student {
+  id                String     @id @default(cuid())
+  email             String     @unique
+  name              String
+  preferredLanguage String     @default("en") // "en" or "fr"
+  clerkUserId       String?    @unique // Reference to Clerk user
+  resources         Resource[]
+  feedback          Feedback[]
+  createdAt         DateTime   @default(now())
+  updatedAt         DateTime   @updatedAt
+
+  @@index([email])
+}
+
+model Resource {
+  id        String   @id @default(cuid())
+  filename  String
+  mimeType  String
+  fileSize  Int
+  fileData  Bytes    // BYTEA storage for file content (max 50MB)
+  studentId String
+  student   Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([studentId])
+}
+
+model Feedback {
+  id        String   @id @default(cuid())
+  content   String   @db.Text // Rich text/markdown content
+  studentId String
+  student   Student  @relation(fields: [studentId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([studentId])
+}

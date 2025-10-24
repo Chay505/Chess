@@ -16,14 +16,13 @@ export function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-2">
-      <span className="text-sm font-medium">{t('language')}:</span>
       <div className="flex gap-1 border border-gray-300 rounded-md overflow-hidden">
         <button
           onClick={() => switchLocale('en')}
           disabled={locale === 'en'}
           className={`px-3 py-1 text-sm font-medium transition-colors ${
             locale === 'en'
-              ? 'bg-blue-600 text-white cursor-default'
+              ? 'bg-[#4A9B8E] text-white cursor-default'
               : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
           aria-label="Switch to English"
@@ -35,7 +34,7 @@ export function LanguageSwitcher() {
           disabled={locale === 'fr'}
           className={`px-3 py-1 text-sm font-medium transition-colors ${
             locale === 'fr'
-              ? 'bg-blue-600 text-white cursor-default'
+              ? 'bg-[#4A9B8E] text-white cursor-default'
               : 'bg-white text-gray-700 hover:bg-gray-100'
           }`}
           aria-label="Passer au français"

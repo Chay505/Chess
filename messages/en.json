@@ -33,7 +33,7 @@
   },
   "hero": {
     "headline": "Start Learning Chess with a Professional Instructor",
-    "subheadline": "Personalized 1-on-1 lessons for beginners (ages 5-55, rating 0-1200)",
+    "subheadline": "Personalized 1-on-1 lessons for beginners",
     "cta": "Book a Lesson",
     "imageAlt": "Professional chess instructor"
   },
@@ -70,7 +70,7 @@
     },
     "audience": {
       "heading": "Who This Is For",
-      "description": "Perfect for complete beginners to early intermediate players (ages 5-55, rating 0-1200). Whether you're learning your first moves or working to break 1000, these lessons are designed for you."
+      "description": "Perfect for complete beginners to early intermediate players. Whether you're learning your first moves or working to break 1000, these lessons are designed for you."
     },
     "howItWorks": {
       "heading": "How It Works",
@@ -147,7 +147,7 @@
     },
     "q8": {
       "question": "What age groups do you teach?",
-      "answer": "I teach students ages 5-55, from complete beginners to early intermediate players (rating 0-1200)."
+      "answer": "I teach students of all ages, from complete beginners to early intermediate players."
     }
   },
   "contact": {
@@ -173,5 +173,23 @@
     "copyright": "© {year} Chess Coaching. All rights reserved.",
     "phone": "Phone",
     "email": "Email"
+  },
+  "dashboard": {
+    "welcome": "Welcome to Your Dashboard",
+    "logout": "Logout",
+    "resources": {
+      "heading": "My Resources",
+      "emptyState": "No resources yet. Your instructor will upload materials here.",
+      "loading": "Loading resources...",
+      "download": "Download",
+      "downloading": "Downloading...",
+      "downloadError": "Failed to download file. Please try again."
+    },
+    "feedback": {
+      "heading": "Instructor Feedback",
+      "emptyState": "No feedback yet. Check back after your first lesson!",
+      "loading": "Loading feedback...",
+      "error": "Failed to load feedback. Please try again later."
+    }
   }
 }

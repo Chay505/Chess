@@ -33,7 +33,7 @@
   },
   "hero": {
     "headline": "Commencez à apprendre les échecs avec un instructeur professionnel",
-    "subheadline": "Cours personnalisés 1-on-1 pour débutants (âges 5-55, classement 0-1200)",
+    "subheadline": "Cours personnalisés 1-on-1 pour débutants",
     "cta": "Réserver une leçon",
     "imageAlt": "Instructeur d'échecs professionnel"
   },
@@ -70,7 +70,7 @@
     },
     "audience": {
       "heading": "Pour qui c'est",
-      "description": "Parfait pour les débutants complets aux joueurs intermédiaires précoces (âges 5-55, classement 0-1200). Que vous appreniez vos premiers coups ou que vous travailliez pour dépasser 1000, ces leçons sont conçues pour vous."
+      "description": "Parfait pour les débutants complets aux joueurs intermédiaires précoces. Que vous appreniez vos premiers coups ou que vous travailliez pour dépasser 1000, ces leçons sont conçues pour vous."
     },
     "howItWorks": {
       "heading": "Comment ça marche",
@@ -147,7 +147,7 @@
     },
     "q8": {
       "question": "Quels groupes d'âge enseignez-vous?",
-      "answer": "J'enseigne aux élèves âgés de 5 à 55 ans, des débutants complets aux joueurs intermédiaires précoces (classement 0-1200)."
+      "answer": "J'enseigne aux élèves de tous âges, des débutants complets aux joueurs intermédiaires précoces."
     }
   },
   "contact": {
@@ -173,5 +173,23 @@
     "copyright": "© {year} Chess Coaching. Tous droits réservés.",
     "phone": "Téléphone",
     "email": "Courriel"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue sur votre tableau de bord",
+    "logout": "Déconnexion",
+    "resources": {
+      "heading": "Mes ressources",
+      "emptyState": "Aucune ressource pour le moment. Votre instructeur téléchargera des documents ici.",
+      "loading": "Chargement des ressources...",
+      "download": "Télécharger",
+      "downloading": "Téléchargement...",
+      "downloadError": "Échec du téléchargement du fichier. Veuillez réessayer."
+    },
+    "feedback": {
+      "heading": "Commentaires de l'instructeur",
+      "emptyState": "Aucun commentaire pour le moment. Revenez après votre première leçon!",
+      "loading": "Chargement des commentaires...",
+      "error": "Échec du chargement des commentaires. Veuillez réessayer plus tard."
+    }
   }
 }

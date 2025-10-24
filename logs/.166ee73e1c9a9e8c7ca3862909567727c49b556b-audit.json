@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/philippebeliveau/Desktop/Notebook/Formation/echec-chaimaa-repo/Chess/logs/.166ee73e1c9a9e8c7ca3862909567727c49b556b-audit.json",
+    "files": [
+        {
+            "date": 1761321890339,
+            "name": "/Users/philippebeliveau/Desktop/Notebook/Formation/echec-chaimaa-repo/Chess/logs/mcp-puppeteer-2025-10-24.log",
+            "hash": "e62db73c991ebfacdd3e460daa9cd1372dbd2eb77d6d7178dc1fad7ba44d9870"
+        }
+    ],
+    "hashType": "sha256"
+}

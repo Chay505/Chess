@@ -24,8 +24,8 @@ export default function Navigation() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link href="/" className="text-xl sm:text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-            Chess Coaching
+          <Link href="/" className="text-xl sm:text-2xl font-bold text-chesslab-forest hover:text-chesslab-sage transition-colors">
+            ChessLAB
           </Link>
 
           {/* Desktop Navigation */}
@@ -34,7 +34,7 @@ export default function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-teal-600 transition-colors text-base font-medium"
+                className="text-gray-700 hover:text-chesslab-forest transition-colors text-base font-medium"
               >
                 {link.label}
               </a>
@@ -45,13 +45,13 @@ export default function Navigation() {
             <SignedOut>
               <Link
                 href="/sign-in"
-                className="text-gray-700 hover:text-teal-600 transition-colors text-base font-medium"
+                className="text-gray-700 hover:text-chesslab-forest transition-colors text-base font-medium"
               >
                 {t('signIn')}
               </Link>
               <Link
                 href="/sign-up"
-                className="bg-teal-600 text-white px-6 py-2.5 rounded-lg font-medium hover:bg-teal-700 transition-colors min-h-[44px] inline-flex items-center"
+                className="bg-chesslab-forest text-white px-6 py-2.5 rounded-lg font-medium hover:bg-chesslab-sage transition-colors min-h-[44px] inline-flex items-center"
               >
                 {t('signUp')}
               </Link>
@@ -60,7 +60,7 @@ export default function Navigation() {
             <SignedIn>
               <Link
                 href="/dashboard"
-                className="text-gray-700 hover:text-teal-600 transition-colors text-base font-medium"
+                className="text-gray-700 hover:text-chesslab-forest transition-colors text-base font-medium"
               >
                 {t('dashboard')}
               </Link>
@@ -73,7 +73,7 @@ export default function Navigation() {
             <LanguageSwitcher />
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2.5 min-w-[44px] min-h-[44px] inline-flex items-center justify-center text-gray-700 hover:text-teal-600 transition-colors"
+              className="p-2.5 min-w-[44px] min-h-[44px] inline-flex items-center justify-center text-gray-700 hover:text-chesslab-forest transition-colors"
               aria-label="Toggle mobile menu"
             >
               {mobileMenuOpen ? (
@@ -93,7 +93,7 @@ export default function Navigation() {
                 <a
                   key={link.href}
                   href={link.href}
-                  className="py-3 px-4 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
+                  className="py-3 px-4 text-gray-700 hover:text-chesslab-forest hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {link.label}
@@ -104,14 +104,14 @@ export default function Navigation() {
               <SignedOut>
                 <Link
                   href="/sign-in"
-                  className="py-3 px-4 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
+                  className="py-3 px-4 text-gray-700 hover:text-chesslab-forest hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {t('signIn')}
                 </Link>
                 <Link
                   href="/sign-up"
-                  className="w-full mt-2 bg-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-teal-700 transition-colors text-center min-h-[48px] flex items-center justify-center"
+                  className="w-full mt-2 bg-chesslab-forest text-white px-6 py-3 rounded-lg font-medium hover:bg-chesslab-sage transition-colors text-center min-h-[48px] flex items-center justify-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {t('signUp')}
@@ -121,7 +121,7 @@ export default function Navigation() {
               <SignedIn>
                 <Link
                   href="/dashboard"
-                  className="py-3 px-4 text-gray-700 hover:text-teal-600 hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
+                  className="py-3 px-4 text-gray-700 hover:text-chesslab-forest hover:bg-gray-50 transition-colors rounded-lg text-base font-medium min-h-[44px] flex items-center"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {t('dashboard')}

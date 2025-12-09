@@ -14,19 +14,19 @@ export default function Hero() {
   };
 
   return (
-    <section className="bg-green-50 py-16 px-6 md:py-24 md:px-12">
+    <section className="bg-chesslab-cream py-16 px-6 md:py-24 md:px-12">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
         {/* Left Column: Text Content */}
         <div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4 leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-chesslab-forest mb-4 leading-tight">
             {t('headline')}
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-6 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
             {t('subheadline')}
           </p>
           <button
             onClick={scrollToBooking}
-            className="bg-teal-600 text-white px-8 py-4 rounded-lg font-medium text-base hover:bg-teal-700 transition-colors duration-200 min-w-[44px] min-h-[44px]"
+            className="bg-chesslab-forest text-white px-8 py-4 rounded-lg font-medium text-base hover:bg-chesslab-sage transition-colors duration-200 min-w-[44px] min-h-[44px]"
             aria-label={t('cta')}
           >
             {t('cta')}

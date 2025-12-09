@@ -73,7 +73,7 @@ export default function ContactForm() {
               required
               value={formData.name}
               onChange={handleChange}
-              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-chesslab-sage focus:border-transparent text-base"
             />
           </div>
 
@@ -91,7 +91,7 @@ export default function ContactForm() {
               required
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-chesslab-sage focus:border-transparent text-base"
             />
           </div>
 
@@ -109,7 +109,7 @@ export default function ContactForm() {
               required
               value={formData.subject}
               onChange={handleChange}
-              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+              className="w-full px-4 py-3 min-h-[44px] border border-gray-300 rounded-lg focus:ring-2 focus:ring-chesslab-sage focus:border-transparent text-base"
             />
           </div>
 
@@ -127,7 +127,7 @@ export default function ContactForm() {
               rows={4}
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent text-base"
+              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-chesslab-sage focus:border-transparent text-base"
             />
           </div>
 
@@ -152,7 +152,7 @@ export default function ContactForm() {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="w-full bg-teal-600 text-white px-8 py-3 min-h-[48px] rounded-lg font-medium text-base hover:bg-teal-700 transition disabled:opacity-50"
+            className="w-full bg-chesslab-forest text-white px-8 py-3 min-h-[48px] rounded-lg font-medium text-base hover:bg-chesslab-sage transition disabled:opacity-50"
           >
             {status === 'loading' ? t('sending') : t('submit')}
           </button>

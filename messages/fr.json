@@ -18,11 +18,11 @@
     "language": "Langue"
   },
   "home": {
-    "title": "Bienvenue à Projet Échec",
+    "title": "Bienvenue à ChessLAB",
     "subtitle": "Plateforme d'apprentissage d'échecs - Bientôt disponible"
   },
   "homepage": {
-    "welcome": "Bienvenue au Coaching d'Échecs",
+    "welcome": "Bienvenue à ChessLAB",
     "subtitle": "Apprenez les échecs avec un instructeur professionnel. Leçons personnalisées pour débutants de tous âges.",
     "aboutTitle": "À propos",
     "aboutPlaceholder": "Contenu à venir...",
@@ -162,7 +162,7 @@
     "error": "Échec de l'envoi du message. Veuillez réessayer."
   },
   "footer": {
-    "tagline": "Coaching d'échecs pour débutants de tous âges",
+    "tagline": "ChessLAB - Coaching d'échecs pour débutants de tous âges",
     "quickLinks": "Liens rapides",
     "about": "À propos",
     "pricing": "Tarification",
@@ -170,7 +170,7 @@
     "contact": "Contact",
     "followUs": "Suivez-nous",
     "privacyPolicy": "Politique de confidentialité",
-    "copyright": "© {year} Chess Coaching. Tous droits réservés.",
+    "copyright": "© {year} ChessLAB. Tous droits réservés.",
     "phone": "Téléphone",
     "email": "Courriel"
   },

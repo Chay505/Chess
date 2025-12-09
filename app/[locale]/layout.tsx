@@ -5,8 +5,8 @@ import Footer from '@/app/components/Footer';
 import '../globals.css';
 
 export const metadata: Metadata = {
-  title: 'Projet Échec - Chess Learning Platform',
-  description: 'Bilingual chess learning platform for students and instructors',
+  title: 'ChessLAB - Chess Learning Platform',
+  description: 'ChessLAB: Bilingual chess coaching platform for beginners of all ages. Professional instruction in English and French.',
 };
 
 export function generateStaticParams() {

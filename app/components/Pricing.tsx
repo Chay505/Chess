@@ -27,7 +27,7 @@ export default function Pricing() {
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
           {/* Price Display */}
           <div className="text-center mb-8">
-            <div className="text-5xl md:text-6xl font-bold text-teal-600 mb-2">
+            <div className="text-5xl md:text-6xl font-bold text-chesslab-forest mb-2">
               {t('price')}
             </div>
             <div className="text-lg text-gray-600">{t('perLesson')}</div>
@@ -65,15 +65,15 @@ export default function Pricing() {
             </h3>
             <ol className="space-y-3">
               <li className="flex">
-                <span className="text-teal-600 font-semibold text-lg mr-3">1.</span>
+                <span className="text-chesslab-forest font-semibold text-lg mr-3">1.</span>
                 <span className="text-gray-600 text-base md:text-lg">{t('howItWorks.step1')}</span>
               </li>
               <li className="flex">
-                <span className="text-teal-600 font-semibold text-lg mr-3">2.</span>
+                <span className="text-chesslab-forest font-semibold text-lg mr-3">2.</span>
                 <span className="text-gray-600 text-base md:text-lg">{t('howItWorks.step2')}</span>
               </li>
               <li className="flex">
-                <span className="text-teal-600 font-semibold text-lg mr-3">3.</span>
+                <span className="text-chesslab-forest font-semibold text-lg mr-3">3.</span>
                 <span className="text-gray-600 text-base md:text-lg">{t('howItWorks.step3')}</span>
               </li>
             </ol>
@@ -95,7 +95,7 @@ export default function Pricing() {
           <div className="text-center">
             <button
               onClick={scrollToBooking}
-              className="bg-teal-600 text-white px-8 py-4 min-h-[48px] rounded-lg font-semibold text-lg hover:bg-teal-700 transition-colors duration-200 shadow-md hover:shadow-lg transform hover:scale-105"
+              className="bg-chesslab-forest text-white px-8 py-4 min-h-[48px] rounded-lg font-semibold text-lg hover:bg-chesslab-sage transition-colors duration-200 shadow-md hover:shadow-lg transform hover:scale-105"
             >
               {t('cta')}
             </button>

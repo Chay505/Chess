@@ -18,11 +18,11 @@
     "language": "Language"
   },
   "home": {
-    "title": "Welcome to Projet Échec",
+    "title": "Welcome to ChessLAB",
     "subtitle": "Chess Learning Platform - Coming Soon"
   },
   "homepage": {
-    "welcome": "Welcome to Chess Coaching",
+    "welcome": "Welcome to ChessLAB",
     "subtitle": "Learn chess from a professional instructor. Personalized lessons for beginners of all ages.",
     "aboutTitle": "About",
     "aboutPlaceholder": "Content coming soon...",
@@ -162,7 +162,7 @@
     "error": "Failed to send message. Please try again."
   },
   "footer": {
-    "tagline": "Chess coaching for beginners of all ages",
+    "tagline": "ChessLAB - Chess coaching for beginners of all ages",
     "quickLinks": "Quick Links",
     "about": "About",
     "pricing": "Pricing",
@@ -170,7 +170,7 @@
     "contact": "Contact",
     "followUs": "Follow Us",
     "privacyPolicy": "Privacy Policy",
-    "copyright": "© {year} Chess Coaching. All rights reserved.",
+    "copyright": "© {year} ChessLAB. All rights reserved.",
     "phone": "Phone",
     "email": "Email"
   },

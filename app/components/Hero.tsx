@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="flex justify-center md:justify-end">
           <div className="relative w-80 h-80 md:w-96 md:h-96">
             <Image
-              src="/images/instructor-placeholder.svg"
+              src="/images/Chess.jpg"
               alt={t('imageAlt')}
               width={400}
               height={400}

@@ -33,9 +33,13 @@
   },
   "hero": {
     "headline": "Commencez à apprendre les échecs avec un instructeur professionnel",
-    "subheadline": "Cours personnalisés 1-on-1 pour débutants",
-    "cta": "Réserver une leçon",
-    "imageAlt": "Instructeur d'échecs professionnel"
+    "subheadline": "Commencez avec un coaching personnalisé, des stratégies expertes et des techniques éprouvées d'un instructeur professionnel.",
+    "cta": "Nous Contacter",
+    "imageAlt": "Instructeur d'échecs professionnel",
+    "studentsCount": "100+",
+    "happyStudents": "Étudiants Satisfaits",
+    "rating": "4,8/5",
+    "ratingLabel": "Évaluation"
   },
   "about": {
     "heading": "Philosophie d'enseignement",

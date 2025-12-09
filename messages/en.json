@@ -33,9 +33,13 @@
   },
   "hero": {
     "headline": "Start Learning Chess with a Professional Instructor",
-    "subheadline": "Personalized 1-on-1 lessons for beginners",
-    "cta": "Book a Lesson",
-    "imageAlt": "Professional chess instructor"
+    "subheadline": "Start with personalized coaching, expert strategies, and proven techniques from a professional instructor.",
+    "cta": "Get In Touch",
+    "imageAlt": "Professional chess instructor",
+    "studentsCount": "100+",
+    "happyStudents": "Happy Students",
+    "rating": "4.8/5",
+    "ratingLabel": "Rating"
   },
   "about": {
     "heading": "Teaching Philosophy",
